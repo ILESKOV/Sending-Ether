@@ -1,3 +1,8 @@
+pragma solidity 0.8.13
+
+contract EtherSending{
+
+
 //Sending Ether safely
 
 yourAddress.send(x);
@@ -14,3 +19,5 @@ yourAddress.transfer(x);
 yourAddress.call.value(x)()
 //Unlimited gas to fallback
 //Enables re-entrency attack
+
+}
